@@ -1,0 +1,91 @@
+.main{
+    background-color: white;
+    
+}
+
+.menubar{
+background: rgb(57, 117, 156);
+    background: linear-gradient(90deg, rgba(57, 117, 156, 1) 15%, rgba(46, 57, 173, 1) 64%, rgba(0, 189, 249, 1) 99%);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    border-radius: 8.5px;
+    font-family: sans-serif;
+}
+
+.logos {
+    font-family:american typewriter;
+    padding-top: 20px;
+    color: black;
+    font-size: 50px;
+
+}
+
+.logos span {
+    color: goldenrod;
+}
+
+.menubar ul {
+    list-style: none;
+    display: flex;
+}
+
+
+.menubar ul li {
+    padding: 10px 30px;
+}
+
+.menubar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+
+    transition: all 0.3s;
+}
+
+.menubar ul li a:hover {
+    color: goldenrod;
+}
+
+.bodys{
+    display: flex;
+    background-color: blue;
+    
+    
+}
+
+.bodys .box1{
+    text-align: center;
+        color: white;
+        width: 350px;
+        height: 300px;
+        margin: 100px;
+        
+        border: 10px;
+        background-color: grey;
+}
+
+.bodys .box2 {
+    text-align: center;
+    color: white;
+    width: 350px;
+    height: 300px;
+    margin: 100px;
+    border: 10px;
+    border-color: brown;
+    background-color: grey;
+}
+
+.bodys .box3 {
+    text-align: center;
+    color: white;
+    width: 350px;
+    height: 300px;
+    margin: 100px;
+    border: 10px;
+    background-color: grey;
+}
